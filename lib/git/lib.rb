@@ -558,8 +558,8 @@ module Git
       command('fetch', remote)
     end
     
-    def push(remote, branch = 'master', tags = false)
-      command('push', [remote, branch])
+    def push(remote, branch = 'master', tags = false, opts = [])
+      command('push', [remote, branch] + opts)
       command('push', ['--tags', remote]) if tags
     end
     
