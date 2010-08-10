@@ -1,6 +1,6 @@
 spec = Gem::Specification.new do |s|
     s.platform  =   Gem::Platform::RUBY
-    s.name      =   "git"
+    s.name      =   "opsb-git"
     s.version   =   "1.1.1"
     s.author    =   "Scott Chacon"
     s.email     =   "schacon@gmail.com"
